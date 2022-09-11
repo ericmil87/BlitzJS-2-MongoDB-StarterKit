@@ -19,13 +19,13 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 Ensure the `.env.local` file has required environment variables:
 
 ```
-DATABASE_URL=postgresql://<YOUR_DB_USERNAME>@localhost:5432/BlitzJSapp
+DATABASE_URL='mongodb+srv://YOUR_MONGO_LOGIN:YOUR_MONGO_PASSWORD@YOUR_MONGOURL.mongodb.net/MongoDBBlitz2_local?retryWrites=true&w=majority'
 ```
 
 Ensure the `.env.test.local` file has required environment variables:
 
 ```
-DATABASE_URL=postgresql://<YOUR_DB_USERNAME>@localhost:5432/BlitzJSapp_test
+DATABASE_URL='mongodb+srv://YOUR_MONGO_LOGIN:YOUR_MONGO_PASSWORD@YOUR_MONGOURL.mongodb.net/MongoDBBlitz2_test?retryWrites=true&w=majority'
 ```
 
 ## Tests
