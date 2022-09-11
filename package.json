@@ -1,5 +1,5 @@
 {
-  "name": "pgsocial",
+  "name": "BlitzJSapp",
   "version": "1.0.0",
   "scripts": {
     "dev": "blitz dev",
